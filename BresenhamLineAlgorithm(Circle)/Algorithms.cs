@@ -60,13 +60,13 @@ namespace BresenhamLineAlgorithm_Circle_
             var pen = new Pen(Color.Black, 2);
 
             // координаты начальной точки (0,b)
-            int x = 0;
-            int y = b;
-            int d = (4 * b * b) + ((a * a) * (1 - (4 * b)));// какой пиксель закрасить 
+            var x = 0;
+            var y = b;
+            var d = (4 * b * b) + ((a * a) * (1 - (4 * b)));// какой пиксель закрасить 
             
             // шаги
-            int delta1 = 12 * b * b;
-            int delta2 = (12 * b * b) + (8 * a * a) - (8 * a * a * b);
+            var delta1 = 12 * b * b;
+            var delta2 = (12 * b * b) + (8 * a * a) - (8 * a * a * b);
             
             // while 1
             while ((a * a * y) > (b * b * x))

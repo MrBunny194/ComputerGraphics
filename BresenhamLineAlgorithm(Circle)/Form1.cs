@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BresenhamLineAlgorithm_Circle_
@@ -15,10 +9,7 @@ namespace BresenhamLineAlgorithm_Circle_
         private int _Xposition;
         private int _Yposition;
 
-        public MyForm()
-        {
-            InitializeComponent();
-        }
+        public MyForm() => InitializeComponent();
 
         private void MyForm_MouseClick(object sender, MouseEventArgs e)
         {
@@ -28,17 +19,13 @@ namespace BresenhamLineAlgorithm_Circle_
             // Создает новый объект Graphics из указанного дескриптора окна.
             var graphics = Graphics.FromHwnd(Handle);
 
-            //Инициализирует новый экземпляр класса Pen с указанными свойствами Color и Width(ширина пера).
-            var pen = new Pen(Color.Black, 2);
-
             // Рисует прямоугольник, который определен парой координат, шириной и высотой.
-            graphics.DrawRectangle(pen, e.X, e.Y, 2, 2); 
+            graphics.DrawRectangle(new Pen(Color.Black, 2), e.X, e.Y, 2, 2); 
         }
 
         private void DrawCircle_Click(object sender, EventArgs e)
         {
-            var radius = (int)(CircleNumericUpDown.Value);
-            Algorithms.Circle(_Xposition, _Yposition, radius, Handle);
+            Algorithms.Circle(_Xposition, _Yposition, (int)(CircleNumericUpDown.Value), Handle);
         }
 
         private void DrawEllipse_Click(object sender, EventArgs e)

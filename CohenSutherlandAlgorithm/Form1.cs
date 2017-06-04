@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CohenSutherlandAlgorithm
@@ -36,8 +30,7 @@ namespace CohenSutherlandAlgorithm
             if (e.Button == MouseButtons.Left)
             {
                 var graphics = PictureBox.CreateGraphics();
-                var pen = new Pen(Color.Black);
-                graphics.DrawRectangle(pen, e.X, e.Y, 1, 1);
+                graphics.DrawRectangle(new Pen(Color.Black), e.X, e.Y, 1, 1);
                 _point1.X = e.X;
                 _point1.Y = e.Y;
             }
@@ -77,16 +70,11 @@ namespace CohenSutherlandAlgorithm
             }
         }
 
-        private void Clear_Click(object sender, EventArgs e)
-        {
-           PictureBox.CreateGraphics().Clear(Color.White);
-        }
-
+        private void Clear_Click(object sender, EventArgs e) => PictureBox.CreateGraphics().Clear(Color.White);
+        
         private void Draw_Click(object sender, EventArgs e)
         {
-            var graphics = PictureBox.CreateGraphics();
-            graphics.DrawLine(new Pen(Color.Black), _point1, _point2);
-
+            PictureBox.CreateGraphics().DrawLine(new Pen(Color.Black), _point1, _point2);
             CohenSutherland.Draw(_point1.X, _point1.Y, _point2.X, _point2.Y, _left, _right, _top, _buttom, PictureBox.CreateGraphics());
         }
     }

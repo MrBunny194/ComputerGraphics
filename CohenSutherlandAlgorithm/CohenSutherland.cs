@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace CohenSutherlandAlgorithm
 {
@@ -47,8 +42,8 @@ namespace CohenSutherlandAlgorithm
             var c2 = OutCode(P2x, P2y, left, right, top, buttom);
 
             // точка пересечения с прямоугольником 
-            int px = 0;
-            int py = 0; 
+            var px = 0;
+            var py = 0; 
 
             while (c1 != 0 || c2 != 0) // если отрезок только не внутри и только не снаружи
             {
@@ -101,9 +96,8 @@ namespace CohenSutherlandAlgorithm
                     c2 = OutCode(P2x, P2y, left, right, top, buttom); // обновляем код для с2
                 }
             }
-
-            var pen = new Pen(Color.Red, 3);
-            graphics.DrawLine(pen, new Point(P1x, P1y), new Point(P2x, P2y));
+            
+            graphics.DrawLine(new Pen(Color.Red, 3), new Point(P1x, P1y), new Point(P2x, P2y));
         }
     }
 }
