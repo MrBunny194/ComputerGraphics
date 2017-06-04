@@ -29,7 +29,7 @@
 ![2017-06-04_21-23-48](https://cloud.githubusercontent.com/assets/29162621/26764270/765ee812-496c-11e7-8616-2f4ede74cb80.png)
 ![2017-06-04_21-24-00](https://cloud.githubusercontent.com/assets/29162621/26764268/765d7de2-496c-11e7-93eb-a425f64b48ef.png)
 
-###Fractals
+### Fractals
 ###### Пользователь задает глубину рекурсии и выбирает, какой фрактал строить.
 ![2017-06-04_22-56-20](https://cloud.githubusercontent.com/assets/29162621/26764933/e1e3baa6-4979-11e7-9424-cb862af9b92a.png)
 ![2017-06-04_22-56-39](https://cloud.githubusercontent.com/assets/29162621/26764932/e1e16918-4979-11e7-9516-6f682b62c708.png)
