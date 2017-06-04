@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillingTriangle", "FillingT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvexPolygonFillAlgorithm", "ConvexPolygonFillAlgorithm\ConvexPolygonFillAlgorithm.csproj", "{CBAE01AE-0B02-447A-A406-307155E84923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleGraphics", "TurtleGraphics\TurtleGraphics.csproj", "{C80D0990-CC50-4006-A94E-C050A677CEF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{CBAE01AE-0B02-447A-A406-307155E84923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBAE01AE-0B02-447A-A406-307155E84923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBAE01AE-0B02-447A-A406-307155E84923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80D0990-CC50-4006-A94E-C050A677CEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80D0990-CC50-4006-A94E-C050A677CEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80D0990-CC50-4006-A94E-C050A677CEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80D0990-CC50-4006-A94E-C050A677CEF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
