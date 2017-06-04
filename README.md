@@ -15,5 +15,6 @@
 ![2017-06-04_16-33-50](https://cloud.githubusercontent.com/assets/29162621/26762070/245ee648-4944-11e7-8bb0-7aad08274e1d.png)
 
 ### [Algorithm for Filling Triangle](http://compgraphics.info/2D/triangle_rasterization.php)
-![2017-06-04_17-06-33](https://cloud.githubusercontent.com/assets/29162621/26762303/75770c46-4948-11e7-951f-554cf403b054.png)
 ###### Пользователь мышью задает вершины треугольника, треугольник отображается, происходит его закрашивание.
+![2017-06-04_17-06-33](https://cloud.githubusercontent.com/assets/29162621/26762303/75770c46-4948-11e7-951f-554cf403b054.png)
+
