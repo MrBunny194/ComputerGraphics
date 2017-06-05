@@ -37,8 +37,7 @@
 ![2017-06-04_22-57-06](https://cloud.githubusercontent.com/assets/29162621/26764936/e1e78316-4979-11e7-809a-dbb3aaf17077.png)
 ![2017-06-04_22-58-13](https://cloud.githubusercontent.com/assets/29162621/26764935/e1e6b396-4979-11e7-9c7f-fb7dff7c2570.png)
 
-### [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set)
-### [Julia set](https://en.wikipedia.org/wiki/Julia_set)
+### [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set) ### [Julia set](https://en.wikipedia.org/wiki/Julia_set)
 ![2017-06-05_20-45-08](https://cloud.githubusercontent.com/assets/29162621/26795974/57010e0e-4a30-11e7-9e9c-923072c0540e.png)
 ![2017-06-05_20-45-25](https://cloud.githubusercontent.com/assets/29162621/26795975/5705ccaa-4a30-11e7-9061-e9b08b84f4ec.png)
 
