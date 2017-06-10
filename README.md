@@ -41,3 +41,7 @@
 ![2017-06-05_20-45-08](https://cloud.githubusercontent.com/assets/29162621/26795974/57010e0e-4a30-11e7-9e9c-923072c0540e.png)
 ![2017-06-05_20-45-25](https://cloud.githubusercontent.com/assets/29162621/26795975/5705ccaa-4a30-11e7-9061-e9b08b84f4ec.png)
 
+### [Bézier curve (red)](https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%B2%D0%B0%D1%8F_%D0%91%D0%B5%D0%B7%D1%8C%D0%B5)
+### [De Casteljau's algorithm (green)](https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC_%D0%B4%D0%B5_%D0%9A%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D1%8C%D0%B6%D0%BE)
+###### Построение ломанной линии по точкам введенным пользователем. Построение кривой Безье по точкам введенным пользователем. Реализация вычислительного алгоритма. Реализация алгоритма де Кастельо. 
+![2017-06-10_19-44-50](https://user-images.githubusercontent.com/29162621/27004720-dc1c279c-4e16-11e7-921c-c4d2b9577753.png)
