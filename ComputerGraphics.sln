@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonalChain", "PolygonalChain\PolygonalChain.csproj", "{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-spline", "B-spline\B-spline.csproj", "{D58236F6-120F-4B2A-82F6-7068BF311B1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
