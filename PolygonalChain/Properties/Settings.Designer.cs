@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Set.Properties
+namespace PolygonalChain.Properties
 {
 
 

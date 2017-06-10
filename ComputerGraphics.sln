@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractals", "Fractals\Fracta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sets", "Sets\Sets.csproj", "{826A621B-838A-4F8E-A5FE-5B601E3B1432}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonalChain", "PolygonalChain\PolygonalChain.csproj", "{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{826A621B-838A-4F8E-A5FE-5B601E3B1432}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826A621B-838A-4F8E-A5FE-5B601E3B1432}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826A621B-838A-4F8E-A5FE-5B601E3B1432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
