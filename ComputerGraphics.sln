@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BresenhamLineAlgorithm(Circle)", "BresenhamLineAlgorithm(Circle)\BresenhamLineAlgorithm(Circle).csproj", "{3D271C41-A2B9-4F0F-AEC7-0276C98EDE87}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonalChain", "PolygonalChain\PolygonalChain.csproj", "{0D74EA46-3DB4-4A17-AA9D-5FD6B4BC121D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B-spline", "B-spline\B-spline.csproj", "{D58236F6-120F-4B2A-82F6-7068BF311B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BezierCurve", "BezierCurve\BezierCurve.csproj", "{1920075C-6CF0-476C-B214-72B19A3FD7DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D58236F6-120F-4B2A-82F6-7068BF311B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1920075C-6CF0-476C-B214-72B19A3FD7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1920075C-6CF0-476C-B214-72B19A3FD7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1920075C-6CF0-476C-B214-72B19A3FD7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1920075C-6CF0-476C-B214-72B19A3FD7DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
